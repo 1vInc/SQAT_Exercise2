@@ -1,0 +1,6 @@
+FileOpenedAction 1476876464264 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1476876684471 TestPlanetExplorer.java 174 1 1 0
+FileOpenedAction 1476876688864 PlanetExplorerException.java 61 0 0 0
+RefactoringAction 1476876718959 PlanetExplorerException.java ADD PlanetExplorerException() METHOD
+RefactoringAction 1476876724013 PlanetExplorerException.java RENAME PlanetExplorerException()=>PlanetExplorerException(String) METHOD
+EditAction 1476876727278 PlanetExplorerException.java 123 1 1 0
