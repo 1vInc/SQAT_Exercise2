@@ -92,4 +92,8 @@ public class PlanetExplorer {
 		
 		throw new PlanetExplorerException("Command " + "(" + cmd + ")" +  " was not a turn command");
 	}
+	
+	//public boolean movingHorizontally
+	
+	//public boolean movingDiagonally
 }

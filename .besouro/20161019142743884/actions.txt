@@ -165,3 +165,27 @@ EditAction 1476878786503 PlanetExplorer.java 2693 5 17 0
 UnitTestCaseAction 1476878791079 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878791079 TestPlanetExplorer.java FAIL
 EditAction 1476878909399 PlanetExplorer.java 2715 5 17 0
+UnitTestCaseAction 1476878914169 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878914169 TestPlanetExplorer.java OK
+RefactoringAction 1476879004951 PlanetExplorer.java ADD boolean moving FIELD
+RefactoringAction 1476879007964 PlanetExplorer.java RENAME moving=>boolean movingHorizontally FIELD
+RefactoringAction 1476879013978 PlanetExplorer.java ADD boolean moving FIELD
+RefactoringAction 1476879015994 PlanetExplorer.java RENAME moving=>boolean movingDiagonally FIELD
+RefactoringAction 1476879025009 PlanetExplorer.java REMOVE movingHorizontally FIELD
+RefactoringAction 1476879027023 PlanetExplorer.java REMOVE movingDiagonally FIELD
+RefactoringAction 1476879042662 TestPlanetExplorer.java ADD void facing FIELD
+RefactoringAction 1476879044172 TestPlanetExplorer.java RENAME facing=>void facingNorth FIELD
+RefactoringAction 1476879047683 TestPlanetExplorer.java RENAME facingNorth=>void facingNorth_ FIELD
+RefactoringAction 1476879050193 TestPlanetExplorer.java RENAME facingNorth_=>void facingNorth_moving FIELD
+RefactoringAction 1476879054704 TestPlanetExplorer.java RENAME facingNorth_moving=>void facingNorth_movingDiagonally FIELD
+RefactoringAction 1476879056714 TestPlanetExplorer.java RENAME facingNorth_movingDiagonally=>void facingNorth_movingDiagonally() METHOD
+RefactoringAction 1476879061224 TestPlanetExplorer.java ADD void facingNorth_movingDiagonally()/2 METHOD
+RefactoringAction 1476879081315 TestPlanetExplorer.java ADD void facingNorth_movingDiagonally()/3 METHOD
+RefactoringAction 1476879081316 TestPlanetExplorer.java ADD void facingNorth_movingDiagonally()/4 METHOD
+RefactoringAction 1476879088827 TestPlanetExplorer.java RENAME facingNorth_movingDiagonally()/4=>void facingSouth_movingDiagonally() METHOD
+RefactoringAction 1476879093840 TestPlanetExplorer.java RENAME facingNorth_movingDiagonally()/3=>void facingEast_movingDiagonally() METHOD
+RefactoringAction 1476879097850 TestPlanetExplorer.java RENAME facingEast_movingDiagonally()=>void facingEast_movingHorizontally() METHOD
+RefactoringAction 1476879113870 TestPlanetExplorer.java RENAME facingNorth_movingDiagonally()/2=>void facingW_movingDiagonally() METHOD
+RefactoringAction 1476879115380 TestPlanetExplorer.java RENAME facingW_movingDiagonally()=>void facingWest_movingDiagonally() METHOD
+RefactoringAction 1476879118891 TestPlanetExplorer.java RENAME facingWest_movingDiagonally()=>void facingWest_movingHorizontally() METHOD
+EditAction 1476879125334 PlanetExplorer.java 2791 5 17 0
