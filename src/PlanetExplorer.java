@@ -3,7 +3,7 @@
 // ID:
 // Finish time:
 
-import java.util.List;
+import java.util.Vector;
 
 public class PlanetExplorer {
 	public static final String NORTH	= "N";
@@ -28,11 +28,9 @@ public class PlanetExplorer {
 			"W",
 	};
 	
-	private String[] obstaclePositions = {
-		"1_1",
-	};
+	private String[] obstaclePositions;
 	
-	private List<String> hit_obstacles;
+	private Vector<String> hit_obstacles;
 	
 	private int position_x; 
 	private int position_y;
@@ -46,7 +44,10 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		hit_obstacles = new List()<String>;
+		if (null != obstacles)
+			parseObstacles(obstacles);
+		
+		hit_obstacles = new Vector<String>();
 		position_x = x;
 		position_y = y;
 		grid_x_len = 5;
@@ -66,6 +67,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		
+		
 		for (int i = 0; i < command.length(); i++) {
 			if (isTurn(command.charAt(i))) {
 				handleTurn(command.charAt(i));
@@ -78,6 +81,11 @@ public class PlanetExplorer {
 		result = getCurrentPosition();
 		
 		return result;
+	}
+	
+	private void parseObstacles(String obstr) {
+		obstr = obstr.substring(3);
+		System.out.println(obstr);
 	}
 	
 	public void setGridXLen(int new_x_len) {
@@ -95,8 +103,7 @@ public class PlanetExplorer {
 		ret += position_x + "," + position_y + "," + directions[current_facing];
 		ret += ")";
 		
-		if (!obstacles.isEmpty()) {
-			System.out.println("here");
+		if (!hit_obstacles.isEmpty()) {
 			ret += obstacleString();
 		}
 		
@@ -106,8 +113,8 @@ public class PlanetExplorer {
 	private String obstacleString() {
 		String ret = "";
 		
-		for (int i = 0; i < obstacles.size(); i++) {
-			ret += obstacles.get(i);
+		for (int i = 0; i < hit_obstacles.size(); i++) {
+			ret += hit_obstacles.get(i);
 		}
 		
 		return ret;
