@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		"1_1",
 	};
 	
-	private List<String> obstacles;
+	private List<String> hit_obstacles;
 	
 	private int position_x; 
 	private int position_y;
@@ -46,7 +46,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		obstacles = new List<String>();
+		hit_obstacles = new List()<String>;
 		position_x = x;
 		position_y = y;
 		grid_x_len = 5;

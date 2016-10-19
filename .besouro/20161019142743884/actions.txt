@@ -529,3 +529,12 @@ CompilationAction 1476882842439 PlanetExplorer.java
 CompilationAction 1476882842439 PlanetExplorer.java
 RefactoringAction 1476882857387 PlanetExplorer.java RENAME obstacles=>List<String> my_obstacles FIELD
 EditAction 1476882859050 PlanetExplorer.java 5421 18 46 0
+CompilationAction 1476882859340 PlanetExplorer.java
+CompilationAction 1476882859341 PlanetExplorer.java
+RefactoringAction 1476882879910 PlanetExplorer.java RENAME obstacles=>List<String> saved_obstacles FIELD
+RefactoringAction 1476882889958 PlanetExplorer.java RENAME saved_obstacles=>List<String> hit_obstacles FIELD
+CompilationAction 1476882890177 PlanetExplorer.java
+CompilationAction 1476882890178 PlanetExplorer.java
+CompilationAction 1476882890349 PlanetExplorer.java
+CompilationAction 1476882890349 PlanetExplorer.java
+EditAction 1476882897964 PlanetExplorer.java 5429 18 40 0
