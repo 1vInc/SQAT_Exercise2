@@ -448,3 +448,4 @@ CompilationAction 1476882033612 TestPlanetExplorer.java
 RefactoringAction 1476882043697 TestPlanetExplorer.java RENAME obstacleIn=>void obstacleIn_x1_y1 FIELD
 RefactoringAction 1476882053707 TestPlanetExplorer.java RENAME obstacleIn_x1_y1=>void obstacleIn_x1_y1() METHOD
 EditAction 1476882093552 TestPlanetExplorer.java 2281 15 19 14
+EditAction 1476882135271 TestPlanetExplorer.java 2286 15 19 14
