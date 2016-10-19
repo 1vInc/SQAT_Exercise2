@@ -281,3 +281,8 @@ UnitTestSessionAction 1476880073976 TestPlanetExplorer.java FAIL
 EditAction 1476880099711 PlanetExplorer.java 3118 7 21 0
 EditAction 1476880105696 PlanetExplorer.java 3130 7 21 0
 EditAction 1476880119321 PlanetExplorer.java 3160 7 21 0
+CompilationAction 1476880119539 PlanetExplorer.java
+RefactoringAction 1476880126113 PlanetExplorer.java ADD void handle FIELD
+RefactoringAction 1476880128126 PlanetExplorer.java RENAME handle=>void handleMove FIELD
+RefactoringAction 1476880129139 PlanetExplorer.java RENAME handleMove=>void handleMove() METHOD
+EditAction 1476880170807 PlanetExplorer.java 3260 8 21 0

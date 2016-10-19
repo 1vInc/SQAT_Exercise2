@@ -111,6 +111,16 @@ public class PlanetExplorer {
 		return false;
 	}
 	
+	private void handleMove() {
+		if (movingHorizontally()) {
+			return;
+		}
+		
+		if () {
+			
+		}
+	}
+	
 	/*private void  moveForward() {
 		
 	}*/
