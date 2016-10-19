@@ -625,3 +625,31 @@ RefactoringAction 1476883381232 PlanetExplorer.java ADD boolean isObstructed(int
 CompilationAction 1476883426609 PlanetExplorer.java
 CompilationAction 1476883426610 PlanetExplorer.java
 EditAction 1476883460421 PlanetExplorer.java 5931 20 47 0
+CompilationAction 1476883460644 PlanetExplorer.java
+CompilationAction 1476883460644 PlanetExplorer.java
+CompilationAction 1476883476558 PlanetExplorer.java
+CompilationAction 1476883476740 PlanetExplorer.java
+CompilationAction 1476883533701 PlanetExplorer.java
+CompilationAction 1476883533872 PlanetExplorer.java
+CompilationAction 1476883533872 PlanetExplorer.java
+CompilationAction 1476883533872 PlanetExplorer.java
+CompilationAction 1476883550340 PlanetExplorer.java
+CompilationAction 1476883550340 PlanetExplorer.java
+CompilationAction 1476883550341 PlanetExplorer.java
+CompilationAction 1476883550486 PlanetExplorer.java
+CompilationAction 1476883550487 PlanetExplorer.java
+CompilationAction 1476883550487 PlanetExplorer.java
+CompilationAction 1476883550487 PlanetExplorer.java
+CompilationAction 1476883550487 PlanetExplorer.java
+CompilationAction 1476883559396 PlanetExplorer.java
+CompilationAction 1476883559397 PlanetExplorer.java
+CompilationAction 1476883559398 PlanetExplorer.java
+CompilationAction 1476883559398 PlanetExplorer.java
+CompilationAction 1476883559398 PlanetExplorer.java
+CompilationAction 1476883559559 PlanetExplorer.java
+CompilationAction 1476883559560 PlanetExplorer.java
+CompilationAction 1476883576958 PlanetExplorer.java
+CompilationAction 1476883576959 PlanetExplorer.java
+CompilationAction 1476883577106 PlanetExplorer.java
+CompilationAction 1476883586626 PlanetExplorer.java
+EditAction 1476883632978 PlanetExplorer.java 6139 20 47 0

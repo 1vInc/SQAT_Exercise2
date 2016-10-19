@@ -84,12 +84,20 @@ public class PlanetExplorer {
 	}
 	
 	private void parseObstacles(String obstr) {
-		
+		int next_end = -1;
 		
 		// find pos of next ")"
-		for () {
-			if (')' == obstr.charAt(i)) 
+		do {
+		for (int i = 0; i < obstr.length(); i++) {
+			if (')' == obstr.charAt(i))
+				next_end = i;
 		}
+		
+		for (int i = 0; i < obstr.length(); i++) {
+		}
+		
+		parseObstacle(obstr.substring(0, next_end));
+		while (obstr.length() > 0);
 		
 		System.out.println(obstr);
 	}
