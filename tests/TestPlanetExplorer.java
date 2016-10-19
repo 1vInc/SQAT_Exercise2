@@ -57,4 +57,9 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("l");
 		assertTrue(explorer.movingHorizontally());
 	}
+	
+	@Test
+	public void moveTwoStepsToEast_position_x2y0() {
+		fail("not yet implemented");
+	}
 }

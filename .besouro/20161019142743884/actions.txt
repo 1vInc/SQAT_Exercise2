@@ -245,3 +245,23 @@ EditAction 1476879652336 PlanetExplorer.java 3031 7 21 0
 UnitTestCaseAction 1476879655340 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879655340 TestPlanetExplorer.java FAIL
 EditAction 1476879694095 TestPlanetExplorer.java 1516 10 14 9
+UnitTestCaseAction 1476879699108 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879699109 TestPlanetExplorer.java OK
+RefactoringAction 1476879769630 PlanetExplorer.java ADD void moveForward() METHOD
+RefactoringAction 1476879779710 PlanetExplorer.java REMOVE moveForward() METHOD
+RefactoringAction 1476879796159 TestPlanetExplorer.java ADD void move FIELD
+RefactoringAction 1476879798169 TestPlanetExplorer.java RENAME move=>void moveTwo FIELD
+RefactoringAction 1476879802680 TestPlanetExplorer.java RENAME moveTwo=>void moveTwoStepsTo FIELD
+RefactoringAction 1476879806691 TestPlanetExplorer.java RENAME moveTwoStepsTo=>void moveTwoStepsToEast FIELD
+RefactoringAction 1476879807702 TestPlanetExplorer.java RENAME moveTwoStepsToEast=>void moveTwoStepsToEast_ FIELD
+RefactoringAction 1476879809714 TestPlanetExplorer.java RENAME moveTwoStepsToEast_=>void moveTwoStepsToEast_position FIELD
+RefactoringAction 1476879811225 TestPlanetExplorer.java RENAME moveTwoStepsToEast_position=>void moveTwoStepsToEast_position0 FIELD
+RefactoringAction 1476879813735 TestPlanetExplorer.java RENAME moveTwoStepsToEast_position0=>void moveTwoStepsToEast_position FIELD
+RefactoringAction 1476879817247 TestPlanetExplorer.java RENAME moveTwoStepsToEast_position=>void moveTwoStepsToEast_position20 FIELD
+RefactoringAction 1476879818258 TestPlanetExplorer.java RENAME moveTwoStepsToEast_position20=>void moveTwoStepsToEast_position2_ FIELD
+RefactoringAction 1476879819269 TestPlanetExplorer.java RENAME moveTwoStepsToEast_position2_=>void moveTwoStepsToEast_positionx2_ FIELD
+RefactoringAction 1476879827280 TestPlanetExplorer.java RENAME moveTwoStepsToEast_positionx2_=>void moveTwoStepsToEast_positionx2_y0 FIELD
+RefactoringAction 1476879965301 TestPlanetExplorer.java RENAME moveTwoStepsToEast_positionx2_y0=>void moveTwoStepsToEast_positionx2y0 FIELD
+RefactoringAction 1476879967812 TestPlanetExplorer.java RENAME moveTwoStepsToEast_positionx2y0=>void moveTwoStepsToEast_position_x2y0 FIELD
+RefactoringAction 1476879971321 TestPlanetExplorer.java RENAME moveTwoStepsToEast_position_x2y0=>void moveTwoStepsToEast_position_x2y0() METHOD
+EditAction 1476879979880 TestPlanetExplorer.java 1609 11 15 9
