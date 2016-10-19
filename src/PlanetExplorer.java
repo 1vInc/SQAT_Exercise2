@@ -53,8 +53,12 @@ public class PlanetExplorer {
 		 */
 		
 		for (int i = 0; i < command.length(); i++) {
-			if (isTurn(command.charAt(i)))
+			if (isTurn(command.charAt(i))) {
 				handleTurn(command.charAt(i));
+			} else {
+				// move assumed
+				
+			}
 		}
 		
 		result = getCurrentPosition();
