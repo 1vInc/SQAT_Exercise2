@@ -161,7 +161,17 @@ public class PlanetExplorer {
 	}
 	
 	private void moveDiagonally(char move_dir) {
+		if (NORTH == directions[current_facing] && 'f' == move_dir)
+			increment_x();
+
+		if (NORTH == directions[current_facing] && 'b' == move_dir)
+			decrement_x();
 		
+		if (SOUTH == directions[current_facing] && 'f' == move_dir)
+			decrement_x();
+			
+		if (SOUTH == directions[current_facing] && 'b' == move_dir)
+			increment_x();
 	}
 	
 	// facingNorth
