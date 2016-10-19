@@ -3,8 +3,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestPlanetExplorer {
+	private PlanetExplorer explorer;
+	
 	public TestPlanetExplorer () {
-		PlanetExplorer explorer = new PlanetExplorer(0,0,null);
+		explorer = new PlanetExplorer(0,0,null);
 	}
 
 	@Test
@@ -16,6 +18,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_leftTurnFromStartingPositionWorks() throws PlanetExplorerException {
-		
+		fail("not yet implemented");
 	}
 }

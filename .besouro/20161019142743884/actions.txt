@@ -120,3 +120,9 @@ RefactoringAction 1476878398648 TestPlanetExplorer.java RENAME test_leftTurnFrom
 RefactoringAction 1476878405159 TestPlanetExplorer.java RENAME test_leftTurnFromStartingPositionWorks=>void test_leftTurnFromStartingPositionWorks() METHOD
 RefactoringAction 1476878436721 TestPlanetExplorer.java ADD TestPlanetExplorer() METHOD
 EditAction 1476878443622 TestPlanetExplorer.java 440 3 2 1
+CompilationAction 1476878443837 TestPlanetExplorer.java
+RefactoringAction 1476878456800 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
+CompilationAction 1476878461143 TestPlanetExplorer.java
+UnitTestCaseAction 1476878466988 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878466989 TestPlanetExplorer.java OK
+EditAction 1476878478598 TestPlanetExplorer.java 489 3 3 1
