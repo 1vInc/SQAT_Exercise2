@@ -3,6 +3,8 @@
 // ID:
 // Finish time:
 
+import java.util.Vector;
+
 public class PlanetExplorer {
 	public static final String NORTH	= "N";
 	public static final String EAST		= "E";
@@ -26,7 +28,7 @@ public class PlanetExplorer {
 			"W",
 	};
 	
-	private String[] obstackles = {};
+	private Vector<String> obstacles;
 	
 	private int position_x; 
 	private int position_y;
@@ -169,7 +171,8 @@ public class PlanetExplorer {
 	}
 	
 	private void increment_x() {
-		position_x = (position_x + 1) % grid_x_len;
+		if (!isObstructed((position_x + 1) % grid_x_len), position_y)
+			position_x = (position_x + 1) % grid_x_len;
 	}
 	
 	private void decrement_x() {
@@ -182,6 +185,10 @@ public class PlanetExplorer {
 	
 	private void decrement_y() {
 		position_y = (position_y + (grid_y_len - 1)) % grid_y_len;
+	}
+	
+	private void isObstructed(int x, int y) {
+		
 	}
 	
 	// facingNorth

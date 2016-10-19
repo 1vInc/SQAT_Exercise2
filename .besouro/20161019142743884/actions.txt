@@ -409,3 +409,11 @@ RefactoringAction 1476881481101 PlanetExplorer.java ADD String FIELD
 RefactoringAction 1476881486116 PlanetExplorer.java RENAME ob=>String FIELD
 RefactoringAction 1476881487130 PlanetExplorer.java RENAME obstack=>String FIELD
 EditAction 1476881490008 PlanetExplorer.java 4924 16 40 0
+RefactoringAction 1476881493169 PlanetExplorer.java RENAME obstackles=>String FIELD
+RefactoringAction 1476881530696 PlanetExplorer.java REMOVE obstackles FIELD
+CompilationAction 1476881537265 PlanetExplorer.java
+CompilationAction 1476881562270 PlanetExplorer.java
+RefactoringAction 1476881743507 PlanetExplorer.java ADD void isObstructed() METHOD
+RefactoringAction 1476881748045 PlanetExplorer.java RENAME isObstructed()=>void isObstructed(int) METHOD
+RefactoringAction 1476881749062 PlanetExplorer.java RENAME isObstructed(int)=>void isObstructed(int, int) METHOD
+EditAction 1476881749811 PlanetExplorer.java 5066 17 39 0
