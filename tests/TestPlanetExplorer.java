@@ -49,6 +49,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void facingEast_movingHorizontally() throws PlanetExplorerException {
 		explorer.executeCommand("r");
+		assertTrue(explorer.movingHorizontally());
 	}
 
 	@Test
