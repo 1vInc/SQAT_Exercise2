@@ -442,3 +442,9 @@ EditAction 1476882013150 PlanetExplorer.java 5136 17 41 0
 EditAction 1476882024939 PlanetExplorer.java 5137 17 41 0
 EditAction 1476882027448 PlanetExplorer.java 5137 17 41 0
 EditAction 1476882033374 TestPlanetExplorer.java 2177 14 18 13
+CompilationAction 1476882033612 TestPlanetExplorer.java
+CompilationAction 1476882033612 TestPlanetExplorer.java
+CompilationAction 1476882033612 TestPlanetExplorer.java
+RefactoringAction 1476882043697 TestPlanetExplorer.java RENAME obstacleIn=>void obstacleIn_x1_y1 FIELD
+RefactoringAction 1476882053707 TestPlanetExplorer.java RENAME obstacleIn_x1_y1=>void obstacleIn_x1_y1() METHOD
+EditAction 1476882093552 TestPlanetExplorer.java 2281 15 19 14

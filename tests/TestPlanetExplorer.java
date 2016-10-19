@@ -79,5 +79,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void obstacleIn
+	public void obstacleIn_x1_y1 () throws PlanetExplorerException {
+		assertEquals("(0,1,E)", explorer.executeCommand("frf"));
+	}
 }
