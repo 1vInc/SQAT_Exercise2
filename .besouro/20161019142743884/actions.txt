@@ -403,3 +403,9 @@ RefactoringAction 1476881400094 TestPlanetExplorer.java RENAME moveTwoStepsToNor
 RefactoringAction 1476881401105 TestPlanetExplorer.java RENAME moveTwoStepsToNorthAndOneBack_position_x0=>void moveTwoStepsToNorthAndOneBack_position_x0y1 FIELD
 RefactoringAction 1476881407640 TestPlanetExplorer.java RENAME moveTwoStepsToNorthAndOneBack_position_x0y1=>void moveTwoStepsToNorthAndOneBack_position_x0y1() METHOD
 EditAction 1476881428571 TestPlanetExplorer.java 2144 14 18 13
+UnitTestCaseAction 1476881433933 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476881433934 TestPlanetExplorer.java OK
+RefactoringAction 1476881481101 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1476881486116 PlanetExplorer.java RENAME ob=>String FIELD
+RefactoringAction 1476881487130 PlanetExplorer.java RENAME obstack=>String FIELD
+EditAction 1476881490008 PlanetExplorer.java 4924 16 40 0

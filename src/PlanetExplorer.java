@@ -26,6 +26,8 @@ public class PlanetExplorer {
 			"W",
 	};
 	
+	private String[] obstackles = {};
+	
 	private int position_x; 
 	private int position_y;
 	private int current_facing;
