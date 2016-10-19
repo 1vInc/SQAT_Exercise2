@@ -417,3 +417,8 @@ RefactoringAction 1476881743507 PlanetExplorer.java ADD void isObstructed() METH
 RefactoringAction 1476881748045 PlanetExplorer.java RENAME isObstructed()=>void isObstructed(int) METHOD
 RefactoringAction 1476881749062 PlanetExplorer.java RENAME isObstructed(int)=>void isObstructed(int, int) METHOD
 EditAction 1476881749811 PlanetExplorer.java 5066 17 39 0
+CompilationAction 1476881750088 PlanetExplorer.java
+CompilationAction 1476881750089 PlanetExplorer.java
+CompilationAction 1476881816530 PlanetExplorer.java
+CompilationAction 1476881816709 PlanetExplorer.java
+EditAction 1476881827405 PlanetExplorer.java 5069 17 40 0

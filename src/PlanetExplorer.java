@@ -171,7 +171,7 @@ public class PlanetExplorer {
 	}
 	
 	private void increment_x() {
-		if (!isObstructed((position_x + 1) % grid_x_len), position_y)
+		if (!isObstructed((position_x + 1) % grid_x_len, position_y))
 			position_x = (position_x + 1) % grid_x_len;
 	}
 	
@@ -187,7 +187,7 @@ public class PlanetExplorer {
 		position_y = (position_y + (grid_y_len - 1)) % grid_y_len;
 	}
 	
-	private void isObstructed(int x, int y) {
+	private boolean isObstructed(int x, int y) {
 		
 	}
 	
