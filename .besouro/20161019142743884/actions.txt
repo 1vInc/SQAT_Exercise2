@@ -154,3 +154,9 @@ UnitTestCaseAction 1476878665898 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878665898 TestPlanetExplorer.java FAIL
 EditAction 1476878702728 TestPlanetExplorer.java 636 4 4 3
 EditAction 1476878704095 TestPlanetExplorer.java 636 4 4 3
+UnitTestCaseAction 1476878707847 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878707847 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878743514 PlanetExplorer.java ADD int FACING_ FIELD
+RefactoringAction 1476878744527 PlanetExplorer.java RENAME FACING_=>int FACING_DIR FIELD
+RefactoringAction 1476878746543 PlanetExplorer.java RENAME FACING_DIR=>int FACING_DIR_COUNT FIELD
+EditAction 1476878746803 PlanetExplorer.java 2624 5 17 0

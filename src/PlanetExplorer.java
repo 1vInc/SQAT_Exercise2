@@ -14,6 +14,8 @@ public class PlanetExplorer {
 	private final int S_INDEX = 2;
 	private final int W_INDEX = 3;
 	
+	private final int FACING_DIR_COUNT = ;
+	
 	private String[] directions = {
 			"N",
 			"E",
@@ -79,7 +81,7 @@ public class PlanetExplorer {
 	
 	private void handleTurn(char cmd) throws PlanetExplorerException {
 		if ('r' == cmd) {
-			current_facing++;
+			current_facing = current_facing;
 			return;
 		}
 		
