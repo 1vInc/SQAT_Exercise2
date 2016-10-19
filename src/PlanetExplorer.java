@@ -15,27 +15,27 @@ public class PlanetExplorer {
 	private final int E_INDEX = 1;
 	private final int S_INDEX = 2;
 	private final int W_INDEX = 3;
-	
+
 	private final int FACING_DIR_AMOUNT = 4;
-	
+
 	private int grid_x_len;
 	private int grid_y_len;
-	
+
 	private String[] directions = {
 			"N",
 			"E",
 			"S",
 			"W",
 	};
-	
+
 	private String[] obstaclePositions;
-	
+
 	private Vector<String> hit_obstacles;
-	
+
 	private int position_x; 
 	private int position_y;
 	private int current_facing;
-	
+
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -54,7 +54,7 @@ public class PlanetExplorer {
 		grid_y_len = 5;
 		current_facing = N_INDEX;
 	}
-	
+
 	public String executeCommand(String command) throws PlanetExplorerException {
 		String result;
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
