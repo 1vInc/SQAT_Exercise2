@@ -104,7 +104,7 @@ public class PlanetExplorer {
 		String ret = "";
 		
 		for (int i = 0; i < obstacles.size(); i++) {
-			ret = ret + obstacles.get(i);
+			ret += obstacles.get(i);
 		}
 	}
 	
