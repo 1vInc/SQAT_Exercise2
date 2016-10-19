@@ -133,7 +133,7 @@ public class PlanetExplorer {
 		
 		if (WEST == directions[current_facing] && 'b' == move_dir)
 			
-		if (EAST == directions[current_facing] && 'b' == move_dir)
+		if (WEST == directions[current_facing] && 'b' == move_dir)
 	}
 	
 	private void moveDiagonally(char move_dir) {
