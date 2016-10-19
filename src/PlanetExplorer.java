@@ -71,12 +71,12 @@ public class PlanetExplorer {
 		return result;
 	}
 	
-	public void setGridXLen() {
-		
+	public void setGridXLen(int new_x_len) {
+		grid_x_len = new_x_len;
 	}
 	
-	public void setGridYLen() {
-		
+	public void setGridYLen(int new_y_len) {
+		grid_y_len = new_y_len;
 	}
 	
 	public String getCurrentPosition() {

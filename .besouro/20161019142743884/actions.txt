@@ -363,3 +363,8 @@ RefactoringAction 1476881119807 PlanetExplorer.java RENAME GRID_Y_LEN=>int grid_
 EditAction 1476881123541 PlanetExplorer.java 4313 14 32 0
 RefactoringAction 1476881138894 TestPlanetExplorer.java RENAME moveTwoStepsNorth_position_=>void moveTwoStepsNorth_position_x0y2() METHOD
 EditAction 1476881146639 TestPlanetExplorer.java 1954 13 17 11
+UnitTestCaseAction 1476881150237 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881150238 TestPlanetExplorer.java FAIL
+RefactoringAction 1476881181425 PlanetExplorer.java RENAME setGridXLen()=>void setGridXLen(int) METHOD
+RefactoringAction 1476881185942 PlanetExplorer.java RENAME setGridYLen()=>void setGridYLen(int) METHOD
+EditAction 1476881188680 PlanetExplorer.java 4385 14 34 0
