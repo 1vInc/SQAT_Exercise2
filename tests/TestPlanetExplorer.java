@@ -59,7 +59,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void moveTwoStepsToEast_position_x2y0() {
-		assertEquals("(0,0,E)", explorer.executeCommand("rff"););
+	public void moveTwoStepsToEast_position_x2y0() throws PlanetExplorerException {
+		assertEquals("(2,0,E)", explorer.executeCommand("rff"));
 	}
 }
