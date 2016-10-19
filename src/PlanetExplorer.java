@@ -88,18 +88,18 @@ public class PlanetExplorer {
 		
 		// find pos of next ")"
 		do {
-		for (int i = 0; i < obstr.length(); i++) {
-			if (')' == obstr.charAt(i))
-				next_end = i;
-		}
+			for (int i = 0; i < obstr.length(); i++) {
+				if (')' == obstr.charAt(i))
+					next_end = i;
+			}
+			
+			for (int i = 0; i < obstr.length(); i++) {
+			}
+			
+			parseObstacle(obstr.substring(0, next_end));
+		} while (obstr.length() > 0);
 		
-		for (int i = 0; i < obstr.length(); i++) {
-		}
-		
-		parseObstacle(obstr.substring(0, next_end));
-		while (obstr.length() > 0);
-		
-		System.out.println(obstr);
+		//System.out.println(obstr);
 	}
 	
 	private void parseObstacle(String obstr) {
