@@ -228,3 +228,10 @@ UnitTestCaseAction 1476879444407 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879444407 TestPlanetExplorer.java FAIL
 EditAction 1476879470403 TestPlanetExplorer.java 1125 9 9 6
 EditAction 1476879487348 TestPlanetExplorer.java 1158 9 10 6
+CompilationAction 1476879487595 TestPlanetExplorer.java
+CompilationAction 1476879504155 TestPlanetExplorer.java
+UnitTestCaseAction 1476879512573 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879512574 TestPlanetExplorer.java FAIL
+RefactoringAction 1476879531396 TestPlanetExplorer.java ADD void facingNorth_notMovingHorizontally()/2 METHOD
+RefactoringAction 1476879535907 TestPlanetExplorer.java RENAME facingNorth_notMovingHorizontally()/2=>void facingSouth_notMovingHorizontally() METHOD
+EditAction 1476879539800 TestPlanetExplorer.java 1331 10 12 7

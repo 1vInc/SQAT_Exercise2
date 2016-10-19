@@ -35,9 +35,15 @@ public class TestPlanetExplorer {
 	}
 
 	@Test
-	public void facingSouth_movingDiagonally() {
+	public void facingSouth_movingDiagonally() throws PlanetExplorerException {
 		explorer.executeCommand("rr");
 		assertTrue(explorer.movingDiagonally());
+	}
+	
+	@Test
+	public void facingSouth_notMovingHorizontally() {
+		explorer.executeCommand("rr");
+		assertFalse(explorer.movingHorizontally());
 	}
 	
 	@Test
