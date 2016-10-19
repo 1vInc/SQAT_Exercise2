@@ -361,3 +361,5 @@ CompilationAction 1476881097766 PlanetExplorer.java
 CompilationAction 1476881107530 PlanetExplorer.java
 RefactoringAction 1476881119807 PlanetExplorer.java RENAME GRID_Y_LEN=>int grid_y_len FIELD
 EditAction 1476881123541 PlanetExplorer.java 4313 14 32 0
+RefactoringAction 1476881138894 TestPlanetExplorer.java RENAME moveTwoStepsNorth_position_=>void moveTwoStepsNorth_position_x0y2() METHOD
+EditAction 1476881146639 TestPlanetExplorer.java 1954 13 17 11
