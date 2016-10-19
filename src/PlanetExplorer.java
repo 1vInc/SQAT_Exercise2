@@ -95,6 +95,7 @@ public class PlanetExplorer {
 		ret += ")";
 		
 		if (true == obstacles.isEmpty()) {
+			System.out.println("here");
 			ret += obstacleString();
 		}
 		
