@@ -84,8 +84,18 @@ public class PlanetExplorer {
 	}
 	
 	private void parseObstacles(String obstr) {
+		
 		obstr = obstr.substring(3);
+		
+		/*for () {
+			
+		}*/
+		
 		System.out.println(obstr);
+	}
+	
+	private void parseObstacle() {
+		
 	}
 	
 	public void setGridXLen(int new_x_len) {
