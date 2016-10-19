@@ -338,3 +338,4 @@ RefactoringAction 1476880933649 TestPlanetExplorer.java RENAME moveTwoStepsToEas
 RefactoringAction 1476880937159 TestPlanetExplorer.java RENAME moveTwoStepsToEastAndOneBack_=>void moveTwoStepsToEastAndOneBack_position_x FIELD
 RefactoringAction 1476880939670 TestPlanetExplorer.java RENAME moveTwoStepsToEastAndOneBack_position_x=>void moveTwoStepsToEastAndOneBack_position_x1y0() METHOD
 EditAction 1476880958810 TestPlanetExplorer.java 1831 12 16 11
+EditAction 1476880965104 TestPlanetExplorer.java 1831 12 16 11

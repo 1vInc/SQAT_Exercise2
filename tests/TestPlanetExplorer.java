@@ -65,6 +65,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void moveTwoStepsToEastAndOneBack_position_x1y0() throws PlanetExplorerException {
-		assertEquals("(2,0,E)", explorer.executeCommand("rffb"));
+		assertEquals("(1,0,E)", explorer.executeCommand("rffb"));
 	}
 }
