@@ -18,3 +18,6 @@ RefactoringAction 1476877064604 TestPlanetExplorer.java RENAME test_startingPosi
 RefactoringAction 1476877065616 TestPlanetExplorer.java RENAME test_startingPosition_x00()=>void test_startingPosition_x0y0() METHOD
 RefactoringAction 1476877250291 TestPlanetExplorer.java RENAME test_startingPosition_x0y0()=>void test_startingPosition_x0y0N() METHOD
 EditAction 1476877313632 TestPlanetExplorer.java 295 1 3 1
+CompilationAction 1476877313891 TestPlanetExplorer.java
+CompilationAction 1476877325621 TestPlanetExplorer.java
+EditAction 1476877329533 TestPlanetExplorer.java 273 1 2 1
