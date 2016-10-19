@@ -63,9 +63,9 @@ public class PlanetExplorer {
 	public String getCurrentPosition() {
 		String ret = "";
 		
-		result = "(";
-		result += position_x + "," + position_y + "," + directions[current_facing];
-		result += ")";
+		ret = "(";
+		ret += position_x + "," + position_y + "," + directions[current_facing];
+		ret += ")";
 		
 		return ret;
 	}

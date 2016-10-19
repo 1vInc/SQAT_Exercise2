@@ -133,3 +133,12 @@ EditAction 1476878519872 TestPlanetExplorer.java 571 4 4 1
 CompilationAction 1476878520126 TestPlanetExplorer.java
 RefactoringAction 1476878543281 PlanetExplorer.java ADD void getCurrentPosition() METHOD
 EditAction 1476878583484 PlanetExplorer.java 2576 5 17 0
+CompilationAction 1476878583720 PlanetExplorer.java
+CompilationAction 1476878583721 TestPlanetExplorer.java
+CompilationAction 1476878593927 PlanetExplorer.java
+RefactoringAction 1476878611480 TestPlanetExplorer.java RENAME test_startingPosition_x0y0N()/2=>void test_leftTurnFromStartingPositionWorks()/2 METHOD
+RefactoringAction 1476878615991 TestPlanetExplorer.java RENAME test_leftTurnFromStartingPositionWorks()/2=>void test_rightTurnFromStartingPositionWorks() METHOD
+CompilationAction 1476878616017 TestPlanetExplorer.java
+UnitTestCaseAction 1476878620896 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878620897 TestPlanetExplorer.java FAIL
+EditAction 1476878648600 TestPlanetExplorer.java 652 4 3 1
