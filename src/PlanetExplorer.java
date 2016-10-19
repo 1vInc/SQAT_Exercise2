@@ -70,11 +70,15 @@ public class PlanetExplorer {
 	}
 	
 	private void handleTurn(char cmd) throws PlanetExplorerException {
-		if ('r' == cmd)
+		if ('r' == cmd) {
 			current_facing++;
+			return;
+		}
 		
-		if ('l' == cmd)
+		if ('l' == cmd) {
 			current_facing--;
+			return;
+		}
 		
 		throw new PlanetExplorerException("Command " + "(" + cmd + ")" +  " was not a turn command");
 	}
