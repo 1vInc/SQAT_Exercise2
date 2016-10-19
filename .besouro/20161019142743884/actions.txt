@@ -485,3 +485,6 @@ RefactoringAction 1476882512322 PlanetExplorer.java REMOVE decrement_x() METHOD
 RefactoringAction 1476882512323 PlanetExplorer.java REMOVE isTurn(char) METHOD
 RefactoringAction 1476882512323 PlanetExplorer.java REMOVE increment_x() METHOD
 EditAction 1476882519954 PlanetExplorer.java 5341 18 45 0
+UnitTestCaseAction 1476882542519 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882542520 TestPlanetExplorer.java FAIL
+EditAction 1476882557375 PlanetExplorer.java 5347 18 45 0

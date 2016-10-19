@@ -94,8 +94,9 @@ public class PlanetExplorer {
 		ret += position_x + "," + position_y + "," + directions[current_facing];
 		ret += ")";
 		
-		if (obstacles.isEmpty())
+		if (obstacles.isEmpty()) {
 			ret += obstacleString();
+		}
 		
 		return ret;
 	}
