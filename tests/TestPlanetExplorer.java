@@ -21,6 +21,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_leftTurnFromStartingPositionWorks() throws PlanetExplorerException {
-		assertEquals("(0,0,W)", explorer.executeCommand("k"));
+		assertEquals("(0,0,W)", explorer.executeCommand("l"));
 	}
 }
