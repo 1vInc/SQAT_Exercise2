@@ -11,6 +11,7 @@ public class PlanetExplorer {
 	
 	private int position_x; 
 	private int position_y;
+	private int current_facing;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -22,10 +23,11 @@ public class PlanetExplorer {
 	 */
 		position_x = x;
 		position_y = y;
+		current_facing = NORTH;
 	}
 	
 	public String executeCommand(String command){
-		
+		String result;
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -36,7 +38,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		
+		result = "(";
+		result += position_x + "," + position_y + "," + ;
+		result += ")";
 		
 		return "(0,0,E)";
 	}

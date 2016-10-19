@@ -30,3 +30,7 @@ RefactoringAction 1476877404986 PlanetExplorer.java ADD int position FIELD
 RefactoringAction 1476877409002 PlanetExplorer.java RENAME position=>int position_x FIELD
 RefactoringAction 1476877413520 PlanetExplorer.java ADD int position_y FIELD
 EditAction 1476877432426 PlanetExplorer.java 1510 2 3 0
+UnitTestCaseAction 1476877439085 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877439085 TestPlanetExplorer.java OK
+RefactoringAction 1476877528510 PlanetExplorer.java ADD int current_facing FIELD
+EditAction 1476877544380 PlanetExplorer.java 1661 2 3 0
