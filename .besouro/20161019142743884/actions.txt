@@ -160,3 +160,5 @@ RefactoringAction 1476878743514 PlanetExplorer.java ADD int FACING_ FIELD
 RefactoringAction 1476878744527 PlanetExplorer.java RENAME FACING_=>int FACING_DIR FIELD
 RefactoringAction 1476878746543 PlanetExplorer.java RENAME FACING_DIR=>int FACING_DIR_COUNT FIELD
 EditAction 1476878746803 PlanetExplorer.java 2624 5 17 0
+CompilationAction 1476878747060 PlanetExplorer.java
+EditAction 1476878786503 PlanetExplorer.java 2693 5 17 0
