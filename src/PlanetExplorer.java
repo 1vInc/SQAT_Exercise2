@@ -57,7 +57,7 @@ public class PlanetExplorer {
 				handleTurn(command.charAt(i));
 			} else {
 				// move assumed if not turn
-				
+				handleMove(command.charAt(i));
 			}
 		}
 		
