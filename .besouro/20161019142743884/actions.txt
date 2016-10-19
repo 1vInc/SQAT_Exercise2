@@ -53,3 +53,32 @@ CompilationAction 1476877771947 PlanetExplorer.java
 CompilationAction 1476877772146 PlanetExplorer.java
 RefactoringAction 1476877784910 PlanetExplorer.java ADD void handleTurn() METHOD
 EditAction 1476877794187 PlanetExplorer.java 1944 4 11 0
+CompilationAction 1476877794396 PlanetExplorer.java
+RefactoringAction 1476877801471 PlanetExplorer.java RENAME handleTurn()=>void handleTurn(char) METHOD
+RefactoringAction 1476877872059 PlanetExplorer.java ADD int S_INDEX FIELD
+RefactoringAction 1476877879108 PlanetExplorer.java ADD int S_INDEX/2 FIELD
+RefactoringAction 1476877879109 PlanetExplorer.java ADD int S_INDEX/3 FIELD
+RefactoringAction 1476877879110 PlanetExplorer.java ADD int S_INDEX/4 FIELD
+RefactoringAction 1476877881124 PlanetExplorer.java RENAME S_INDEX/4=>int _INDEX FIELD
+RefactoringAction 1476877882638 PlanetExplorer.java RENAME S_INDEX/3=>int _INDEX/2 FIELD
+RefactoringAction 1476877883653 PlanetExplorer.java RENAME _INDEX/2=>int N_INDEX FIELD
+RefactoringAction 1476877885166 PlanetExplorer.java RENAME _INDEX=>int E_INDEX FIELD
+RefactoringAction 1476877886175 PlanetExplorer.java RENAME S_INDEX/2=>int _INDEX FIELD
+RefactoringAction 1476877887186 PlanetExplorer.java RENAME _INDEX=>int S_INDEX/2 FIELD
+RefactoringAction 1476877888194 PlanetExplorer.java RENAME S_INDEX/2=>int _INDEX FIELD
+RefactoringAction 1476877889204 PlanetExplorer.java RENAME _INDEX=>int W_INDEX FIELD
+RefactoringAction 1476877912255 PlanetExplorer.java ADD String FIELD
+CompilationAction 1476877928793 PlanetExplorer.java
+CompilationAction 1476877928955 PlanetExplorer.java
+RefactoringAction 1476877935422 PlanetExplorer.java RENAME NORTH=>ifnal String FIELD
+RefactoringAction 1476877936941 PlanetExplorer.java RENAME String=>String NORTH FIELD
+RefactoringAction 1476877946497 PlanetExplorer.java REMOVE N_INDEX FIELD
+RefactoringAction 1476877949013 PlanetExplorer.java REMOVE E_INDEX FIELD
+RefactoringAction 1476877951030 PlanetExplorer.java RENAME S_INDEX=>int fiS_INDEX FIELD
+RefactoringAction 1476877953040 PlanetExplorer.java REMOVE fiS_INDEX FIELD
+RefactoringAction 1476877956066 PlanetExplorer.java ADD finalint S_INDEX FIELD
+RefactoringAction 1476877961615 PlanetExplorer.java ADD int N_INDEX FIELD
+RefactoringAction 1476877963128 PlanetExplorer.java ADD int E_INDEX FIELD
+CompilationAction 1476877972376 PlanetExplorer.java
+CompilationAction 1476877972538 PlanetExplorer.java
+EditAction 1476877978665 PlanetExplorer.java 2176 4 11 0

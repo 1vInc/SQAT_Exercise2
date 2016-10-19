@@ -4,10 +4,22 @@
 // Finish time:
 
 public class PlanetExplorer {
-	public static String NORTH	= "N";
-	public static String EAST	= "E";
-	public static String SOUTH	= "S";
-	public static String WEST	= "W";
+	public static final String NORTH	= "N";
+	public static final String EAST	= "E";
+	public static final String SOUTH	= "S";
+	public static final String WEST	= "W";
+
+	private final int N_INDEX = 0;
+	private final int E_INDEX = 1;
+	private final int S_INDEX = 2;
+	private final int W_INDEX = 3;
+	
+	private String[] directions = {
+			"N",
+			"E",
+			"S",
+			"W",
+	};
 	
 	private int position_x; 
 	private int position_y;
@@ -57,7 +69,7 @@ public class PlanetExplorer {
 		return false;
 	}
 	
-	private void handleTurn() {
+	private void handleTurn(char cmd) {
 		
 	}
 }
