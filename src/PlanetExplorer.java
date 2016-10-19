@@ -116,13 +116,19 @@ public class PlanetExplorer {
 			throw new PlanetExplorerException("Incorrect state. Cannot be simultaneously moving diagonally and horizontally");
 		
 		if (movingHorizontally()) {
-				if ('f' == cmd)
+			moveHorizontally(cmd);
 		}
 		
 		if (movingDiagonally()) {
-			
+			moveDiagonally(cmd);
 		}
 	}
+	
+	private void moveHorizontally(char move_dir, ) {
+		
+	}
+	
+	// facingNorth
 	
 	/*private void  moveForward() {
 		

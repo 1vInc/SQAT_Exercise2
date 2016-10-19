@@ -295,3 +295,11 @@ CompilationAction 1476880272328 PlanetExplorer.java
 CompilationAction 1476880272481 PlanetExplorer.java
 RefactoringAction 1476880325636 PlanetExplorer.java RENAME handleMove()=>void handleMove(char) METHOD
 EditAction 1476880374312 PlanetExplorer.java 3497 8 21 0
+CompilationAction 1476880374552 PlanetExplorer.java
+CompilationAction 1476880417808 PlanetExplorer.java
+CompilationAction 1476880417959 PlanetExplorer.java
+CompilationAction 1476880417959 PlanetExplorer.java
+CompilationAction 1476880417959 PlanetExplorer.java
+RefactoringAction 1476880429430 PlanetExplorer.java ADD void moveHorizontally() METHOD
+RefactoringAction 1476880446993 PlanetExplorer.java RENAME moveHorizontally()=>void moveHorizontally(char) METHOD
+EditAction 1476880480590 PlanetExplorer.java 3599 9 24 0
