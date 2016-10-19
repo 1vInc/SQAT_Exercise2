@@ -41,14 +41,14 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void facingSouth_notMovingHorizontally() {
+	public void facingSouth_notMovingHorizontally() throws PlanetExplorerException {
 		explorer.executeCommand("rr");
 		assertFalse(explorer.movingHorizontally());
 	}
 	
 	@Test
-	public void facingEast_movingHorizontally() {
-		fail("not yet implemented");
+	public void facingEast_movingHorizontally() throws PlanetExplorerException {
+		explorer.executeCommand("r");
 	}
 
 	@Test
