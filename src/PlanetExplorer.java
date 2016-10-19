@@ -35,7 +35,7 @@ public class PlanetExplorer {
 	 */
 		position_x = x;
 		position_y = y;
-		current_facing = NORTH;
+		current_facing = N_INDEX;
 	}
 	
 	public String executeCommand(String command){
@@ -70,6 +70,6 @@ public class PlanetExplorer {
 	}
 	
 	private void handleTurn(char cmd) {
-		
+		current_facing
 	}
 }
