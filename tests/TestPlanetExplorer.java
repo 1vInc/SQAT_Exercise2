@@ -70,6 +70,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void moveTwoStepsNorth_position_x0y2() throws PlanetExplorerException {
-		fail("not yet implemented");
+		assertEquals("(0,2,N)", explorer.executeCommand("ff"));
 	}
 }

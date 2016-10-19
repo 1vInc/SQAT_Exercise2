@@ -368,3 +368,4 @@ UnitTestSessionAction 1476881150238 TestPlanetExplorer.java FAIL
 RefactoringAction 1476881181425 PlanetExplorer.java RENAME setGridXLen()=>void setGridXLen(int) METHOD
 RefactoringAction 1476881185942 PlanetExplorer.java RENAME setGridYLen()=>void setGridYLen(int) METHOD
 EditAction 1476881188680 PlanetExplorer.java 4385 14 34 0
+EditAction 1476881213514 TestPlanetExplorer.java 1981 13 17 12
