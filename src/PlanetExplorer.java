@@ -106,4 +106,8 @@ public class PlanetExplorer {
 		
 		return false;
 	}
+	
+	/*private void  moveForward() {
+		
+	}*/
 }
