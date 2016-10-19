@@ -53,7 +53,8 @@ public class TestPlanetExplorer {
 	}
 
 	@Test
-	public void facingWest_movingHorizontally() {
-		fail("not yet implemented");
+	public void facingWest_movingHorizontally() throws PlanetExplorerException {
+		explorer.executeCommand("l");
+		assertTrue(explorer.movingHorizontally());
 	}
 }
