@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		"1_1",
 	};
 	
-	private List obstacles;
+	private List<String> obstacles;
 	
 	private int position_x; 
 	private int position_y;
