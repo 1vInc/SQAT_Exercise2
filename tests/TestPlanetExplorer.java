@@ -23,4 +23,24 @@ public class TestPlanetExplorer {
 	public void test_leftTurnFromStartingPositionWorks() throws PlanetExplorerException {
 		assertEquals("(0,0,W)", explorer.executeCommand("l"));
 	}
+	
+	@Test
+	public void facingNorth_movingDiagonally() {
+		fail("not yet implemented");
+	}
+
+	@Test
+	public void facingSouth_movingDiagonally() {
+		fail("not yet implemented");
+	}
+	
+	@Test
+	public void facingEast_movingHorizontally() {
+		fail("not yet implemented");
+	}
+
+	@Test
+	public void facingWest_movingHorizontally() {
+		fail("not yet implemented");
+	}
 }
