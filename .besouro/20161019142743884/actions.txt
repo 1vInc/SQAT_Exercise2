@@ -10,3 +10,11 @@ RefactoringAction 1476876920471 PlanetExplorer.java ADD String EAST FIELD
 RefactoringAction 1476876922494 PlanetExplorer.java ADD String SOUTH FIELD
 RefactoringAction 1476876929036 PlanetExplorer.java ADD String WEST FIELD
 EditAction 1476876946238 PlanetExplorer.java 1410 2 1 0
+RefactoringAction 1476877059049 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_startingPosition() METHOD
+RefactoringAction 1476877060563 TestPlanetExplorer.java RENAME test_startingPosition()=>void test_startingPosition_0_() METHOD
+RefactoringAction 1476877061577 TestPlanetExplorer.java RENAME test_startingPosition_0_()=>void test_startingPosition_0() METHOD
+RefactoringAction 1476877062591 TestPlanetExplorer.java RENAME test_startingPosition_0()=>void test_startingPosition_00() METHOD
+RefactoringAction 1476877064604 TestPlanetExplorer.java RENAME test_startingPosition_00()=>void test_startingPosition_x00() METHOD
+RefactoringAction 1476877065616 TestPlanetExplorer.java RENAME test_startingPosition_x00()=>void test_startingPosition_x0y0() METHOD
+RefactoringAction 1476877250291 TestPlanetExplorer.java RENAME test_startingPosition_x0y0()=>void test_startingPosition_x0y0N() METHOD
+EditAction 1476877313632 TestPlanetExplorer.java 295 1 3 1
