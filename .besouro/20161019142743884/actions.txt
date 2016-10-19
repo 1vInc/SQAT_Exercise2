@@ -204,3 +204,6 @@ CompilationAction 1476879303789 PlanetExplorer.java
 CompilationAction 1476879312495 PlanetExplorer.java
 CompilationAction 1476879312659 PlanetExplorer.java
 EditAction 1476879323133 PlanetExplorer.java 2913 6 19 0
+RefactoringAction 1476879349141 TestPlanetExplorer.java ADD void facingNorth_notMovingHorizontally() METHOD
+RefactoringAction 1476879363703 TestPlanetExplorer.java REMOVE facingNorth_notMovingHorizontally() METHOD
+EditAction 1476879364438 TestPlanetExplorer.java 1109 8 8 4
