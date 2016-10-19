@@ -60,6 +60,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void moveTwoStepsToEast_position_x2y0() {
-		fail("not yet implemented");
+		assertEquals("(0,0,E)", explorer.executeCommand("rff"););
 	}
 }
