@@ -373,3 +373,24 @@ UnitTestCaseAction 1476881217294 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476881217295 TestPlanetExplorer.java FAIL
 EditAction 1476881255113 PlanetExplorer.java 4710 14 38 0
 EditAction 1476881264508 PlanetExplorer.java 4710 14 38 0
+CompilationAction 1476881264759 PlanetExplorer.java
+CompilationAction 1476881264759 PlanetExplorer.java
+RefactoringAction 1476881274167 PlanetExplorer.java REMOVE decrement_x() METHOD
+RefactoringAction 1476881274168 PlanetExplorer.java REMOVE increment_x() METHOD
+RefactoringAction 1476881276683 PlanetExplorer.java ADD void increment_x() METHOD
+RefactoringAction 1476881276684 PlanetExplorer.java ADD void decrement_x() METHOD
+RefactoringAction 1476881283712 PlanetExplorer.java ADD void inc FIELD
+RefactoringAction 1476881286726 PlanetExplorer.java RENAME inc=>void increment_y() METHOD
+RefactoringAction 1476881293254 PlanetExplorer.java ADD void decrement_y FIELD
+RefactoringAction 1476881295269 PlanetExplorer.java RENAME decrement_y=>void decrement_y() METHOD
+RefactoringAction 1476881304297 PlanetExplorer.java ADD void decrement FIELD
+CompilationAction 1476881304338 PlanetExplorer.java
+CompilationAction 1476881304339 PlanetExplorer.java
+CompilationAction 1476881304538 PlanetExplorer.java
+CompilationAction 1476881304538 PlanetExplorer.java
+RefactoringAction 1476881313827 PlanetExplorer.java RENAME decrement=>void decrement_position FIELD
+RefactoringAction 1476881318841 PlanetExplorer.java ADD void increment_position FIELD
+RefactoringAction 1476881321857 PlanetExplorer.java RENAME increment_position=>void increment_position() METHOD
+RefactoringAction 1476881330873 PlanetExplorer.java REMOVE decrement_position FIELD
+RefactoringAction 1476881330874 PlanetExplorer.java REMOVE increment_position() METHOD
+EditAction 1476881368024 PlanetExplorer.java 4887 16 40 0

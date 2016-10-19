@@ -152,14 +152,6 @@ public class PlanetExplorer {
 			increment_x();
 	}
 	
-	private void increment_x() {
-		position_x = (position_x + 1) % grid_x_len;
-	}
-	
-	private void decrement_x() {
-		position_x = (position_x + (grid_x_len - 1)) % grid_x_len;
-	}
-	
 	private void moveDiagonally(char move_dir) {
 		if (NORTH == directions[current_facing] && 'f' == move_dir)
 			increment_y();
@@ -172,6 +164,22 @@ public class PlanetExplorer {
 			
 		if (SOUTH == directions[current_facing] && 'b' == move_dir)
 			increment_y();
+	}
+	
+	private void increment_x() {
+		position_x = (position_x + 1) % grid_x_len;
+	}
+	
+	private void decrement_x() {
+		position_x = (position_x + (grid_x_len - 1)) % grid_x_len;
+	}
+	
+	private void increment_y() {
+		position_y = (position_y + 1) % grid_y_len;
+	}
+	
+	private void decrement_y() {
+		position_y = (position_y + (grid_y_len - 1)) % grid_y_len;
 	}
 	
 	// facingNorth
