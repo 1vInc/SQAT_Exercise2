@@ -469,3 +469,19 @@ CompilationAction 1476882482898 PlanetExplorer.java
 UnitTestCaseAction 1476882497331 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476882497331 TestPlanetExplorer.java FAIL
 EditAction 1476882505080 PlanetExplorer.java 5346 18 44 0
+UnitTestCaseAction 1476882509189 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882509189 TestPlanetExplorer.java FAIL
+RefactoringAction 1476882512316 PlanetExplorer.java REMOVE movingDiagonally() METHOD
+RefactoringAction 1476882512317 PlanetExplorer.java REMOVE moveDiagonally(char) METHOD
+RefactoringAction 1476882512317 PlanetExplorer.java REMOVE increment_y() METHOD
+RefactoringAction 1476882512318 PlanetExplorer.java REMOVE movingHorizontally() METHOD
+RefactoringAction 1476882512318 PlanetExplorer.java REMOVE obstacleString() METHOD
+RefactoringAction 1476882512319 PlanetExplorer.java REMOVE isObstructed(int, int) METHOD
+RefactoringAction 1476882512320 PlanetExplorer.java REMOVE decrement_y() METHOD
+RefactoringAction 1476882512320 PlanetExplorer.java REMOVE handleMove(char) METHOD
+RefactoringAction 1476882512321 PlanetExplorer.java REMOVE handleTurn(char) METHOD
+RefactoringAction 1476882512321 PlanetExplorer.java REMOVE moveHorizontally(char) METHOD
+RefactoringAction 1476882512322 PlanetExplorer.java REMOVE decrement_x() METHOD
+RefactoringAction 1476882512323 PlanetExplorer.java REMOVE isTurn(char) METHOD
+RefactoringAction 1476882512323 PlanetExplorer.java REMOVE increment_x() METHOD
+EditAction 1476882519954 PlanetExplorer.java 5341 18 45 0
