@@ -199,3 +199,8 @@ CompilationAction 1476879197488 TestPlanetExplorer.java
 RefactoringAction 1476879209130 PlanetExplorer.java ADD boolean movingDiagonally FIELD
 RefactoringAction 1476879213144 PlanetExplorer.java RENAME movingDiagonally=>boolean movingDiagonally() METHOD
 EditAction 1476879303551 PlanetExplorer.java 2892 6 18 0
+CompilationAction 1476879303788 PlanetExplorer.java
+CompilationAction 1476879303789 PlanetExplorer.java
+CompilationAction 1476879312495 PlanetExplorer.java
+CompilationAction 1476879312659 PlanetExplorer.java
+EditAction 1476879323133 PlanetExplorer.java 2913 6 19 0

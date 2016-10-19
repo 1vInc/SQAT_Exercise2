@@ -96,8 +96,9 @@ public class PlanetExplorer {
 	//public boolean movingHorizontally
 	
 	public boolean movingDiagonally() {
-		if (NOTRH == directions[current_facing] || SOUTH == directions[current_facing])
+		if (NORTH == directions[current_facing] || SOUTH == directions[current_facing])
+			return true;
 		
-		return ;
+		return false;
 	}
 }
