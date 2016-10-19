@@ -324,3 +324,6 @@ RefactoringAction 1476880747362 PlanetExplorer.java ADD void decrement_x() METHO
 RefactoringAction 1476880758888 PlanetExplorer.java ADD int GRID_X_LEN FIELD
 RefactoringAction 1476880767904 PlanetExplorer.java ADD int GRID_Y_LEN FIELD
 EditAction 1476880780034 PlanetExplorer.java 4134 12 29 0
+UnitTestCaseAction 1476880847928 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880847928 TestPlanetExplorer.java OK
+EditAction 1476880900469 PlanetExplorer.java 4220 12 30 0

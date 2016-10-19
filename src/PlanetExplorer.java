@@ -130,24 +130,23 @@ public class PlanetExplorer {
 	private void moveHorizontally(char move_dir) {
 		if (EAST == directions[current_facing] && 'f' == move_dir)
 			increment_x();
-			position_x++;
 
 		if (EAST == directions[current_facing] && 'b' == move_dir)
-			position_x--;
+			decrement_x();
 		
 		if (WEST == directions[current_facing] && 'f' == move_dir)
-			position_x--;
+			decrement_x();
 			
 		if (WEST == directions[current_facing] && 'b' == move_dir)
-			position_x++;
+			increment_x();
 	}
 	
 	private void increment_x() {
-		
+		position_x = (position_x + 1) % GRID_X_LEN;
 	}
 	
 	private void decrement_x() {
-		
+		position_x = (position_x + (GRID_X_LEN - 1)) % GID_X_LEN;
 	}
 	
 	private void moveDiagonally(char move_dir) {
