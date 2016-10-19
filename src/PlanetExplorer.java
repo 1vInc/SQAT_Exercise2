@@ -55,11 +55,19 @@ public class PlanetExplorer {
 				handleTurn(command.charAt(i));
 		}
 		
+		result = getCurrentPosition();
+		
+		return result;
+	}
+	
+	public String getCurrentPosition() {
+		String ret = "";
+		
 		result = "(";
 		result += position_x + "," + position_y + "," + directions[current_facing];
 		result += ")";
 		
-		return result;
+		return ret;
 	}
 	
 	private boolean isTurn(char cmd) {
