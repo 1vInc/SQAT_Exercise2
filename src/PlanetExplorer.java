@@ -23,7 +23,7 @@ public class PlanetExplorer {
 	
 	private int position_x; 
 	private int position_y;
-	private String current_facing;
+	private int current_facing;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -70,6 +70,12 @@ public class PlanetExplorer {
 	}
 	
 	private void handleTurn(char cmd) {
-		current_facing
+		if ('r' == cmd)
+			current_facing++;
+		
+		if ('l' == cmd)
+			current_facing--;
+		
+		throw PlanetExplorerException("Could not handle turn");
 	}
 }
