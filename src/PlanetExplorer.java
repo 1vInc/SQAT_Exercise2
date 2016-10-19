@@ -17,7 +17,7 @@ public class PlanetExplorer {
 	private final int FACING_DIR_AMOUNT = 4;
 	
 	private int grid_x_len;
-	private int GRID_Y_LEN;
+	private int grid_y_len;
 	
 	private String[] directions = {
 			"N",
@@ -41,7 +41,7 @@ public class PlanetExplorer {
 		position_x = x;
 		position_y = y;
 		grid_x_len = 5;
-		GRID_Y_LEN = 5;
+		grid_y_len = 5;
 		current_facing = N_INDEX;
 	}
 	
@@ -71,8 +71,13 @@ public class PlanetExplorer {
 		return result;
 	}
 	
-	public void setGridXLen()
-	public void setGridYLen()
+	public void setGridXLen() {
+		
+	}
+	
+	public void setGridYLen() {
+		
+	}
 	
 	public String getCurrentPosition() {
 		String ret = "";
