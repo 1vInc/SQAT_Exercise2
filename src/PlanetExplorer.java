@@ -11,7 +11,7 @@ public class PlanetExplorer {
 	
 	private int position_x; 
 	private int position_y;
-	private int current_facing;
+	private String current_facing;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -39,7 +39,7 @@ public class PlanetExplorer {
 		 */
 		
 		result = "(";
-		result += position_x + "," + position_y + "," + ;
+		result += position_x + "," + position_y + "," + current_facing;
 		result += ")";
 		
 		return "(0,0,E)";

@@ -34,3 +34,9 @@ UnitTestCaseAction 1476877439085 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476877439085 TestPlanetExplorer.java OK
 RefactoringAction 1476877528510 PlanetExplorer.java ADD int current_facing FIELD
 EditAction 1476877544380 PlanetExplorer.java 1661 2 3 0
+CompilationAction 1476877544643 PlanetExplorer.java
+CompilationAction 1476877544643 PlanetExplorer.java
+CompilationAction 1476877552861 PlanetExplorer.java
+CompilationAction 1476877552862 PlanetExplorer.java
+CompilationAction 1476877553024 PlanetExplorer.java
+EditAction 1476877559897 PlanetExplorer.java 1678 2 8 0
