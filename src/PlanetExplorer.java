@@ -124,7 +124,14 @@ public class PlanetExplorer {
 		}
 	}
 	
-	private void moveHorizontally(char move_dir, ) {
+	private void moveHorizontally(char move_dir) {
+		if (SOUTH == directions[current_facing] && 'f' == move_dir)
+			position_x++;
+		if (WEST == directions[current_facing] && 'f' == move_dir)
+			position_x--;
+	}
+	
+	private void moveDiagonally(char move_dir) {
 		
 	}
 	
