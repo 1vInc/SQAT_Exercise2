@@ -666,3 +666,12 @@ EditAction 1476883669784 PlanetExplorer.java 6152 20 49 0
 EditAction 1476883686738 PlanetExplorer.java 6097 20 49 0
 EditAction 1476883756163 PlanetExplorer.java 6138 20 49 0
 EditAction 1476883796756 PlanetExplorer.java 6142 20 48 0
+UnitTestCaseAction 1476883807525 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883807525 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883815899 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883815899 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883874174 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883874174 TestPlanetExplorer.java FAIL
+FileOpenedAction 1476883883601 TestPlanetExplorer.java 2299 15 19 14
+UnitTestCaseAction 1476883951337 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883951338 TestPlanetExplorer.java FAIL
