@@ -77,4 +77,7 @@ public class TestPlanetExplorer {
 	public void moveTwoStepsToNorthAndOneBack_position_x0y1() throws PlanetExplorerException {
 		assertEquals("(0,1,N)", explorer.executeCommand("ffb"));
 	}
+	
+	@Test
+	public void obstacleIn
 }
