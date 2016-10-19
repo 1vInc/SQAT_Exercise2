@@ -29,6 +29,7 @@ public class TestPlanetExplorer {
 		assertTrue(explorer.movingDiagonally());
 	}
 	
+	@Test
 	public void facingNorth_notMovingHorizontally() {
 		assertFalse(explorer.movingHorizontally());
 	}
