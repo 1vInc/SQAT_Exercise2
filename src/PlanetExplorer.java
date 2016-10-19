@@ -94,6 +94,7 @@ public class PlanetExplorer {
 			}
 			
 			parseObstacle(obstr.substring(0, next_end));
+			obstr = obstr.substring(0, next_end);
 		} while (obstr.length() > 0);
 		
 		//System.out.println(obstr);
