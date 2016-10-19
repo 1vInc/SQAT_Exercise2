@@ -317,3 +317,10 @@ EditAction 1476880651972 PlanetExplorer.java 3934 10 24 0
 CompilationAction 1476880652220 PlanetExplorer.java
 CompilationAction 1476880673608 PlanetExplorer.java
 EditAction 1476880700544 PlanetExplorer.java 3968 10 28 0
+UnitTestCaseAction 1476880712619 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880712620 TestPlanetExplorer.java OK
+RefactoringAction 1476880736289 PlanetExplorer.java ADD void increment_x() METHOD
+RefactoringAction 1476880747362 PlanetExplorer.java ADD void decrement_x() METHOD
+RefactoringAction 1476880758888 PlanetExplorer.java ADD int GRID_X_LEN FIELD
+RefactoringAction 1476880767904 PlanetExplorer.java ADD int GRID_Y_LEN FIELD
+EditAction 1476880780034 PlanetExplorer.java 4134 12 29 0

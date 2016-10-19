@@ -16,6 +16,9 @@ public class PlanetExplorer {
 	
 	private final int FACING_DIR_AMOUNT = 4;
 	
+	private final int GRID_X_LEN = 5;
+	private final int GRID_Y_LEN = 5;
+	
 	private String[] directions = {
 			"N",
 			"E",
@@ -126,6 +129,7 @@ public class PlanetExplorer {
 	
 	private void moveHorizontally(char move_dir) {
 		if (EAST == directions[current_facing] && 'f' == move_dir)
+			increment_x();
 			position_x++;
 
 		if (EAST == directions[current_facing] && 'b' == move_dir)
@@ -136,6 +140,14 @@ public class PlanetExplorer {
 			
 		if (WEST == directions[current_facing] && 'b' == move_dir)
 			position_x++;
+	}
+	
+	private void increment_x() {
+		
+	}
+	
+	private void decrement_x() {
+		
 	}
 	
 	private void moveDiagonally(char move_dir) {
