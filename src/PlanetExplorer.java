@@ -3,7 +3,7 @@
 // ID:
 // Finish time:
 
-import java.util.Vector;
+import java.util.List;
 
 public class PlanetExplorer {
 	public static final String NORTH	= "N";
@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		"1_1",
 	};
 	
-	private Vector<String> obstacles;
+	private List obstacles;
 	
 	private int position_x; 
 	private int position_y;
@@ -46,7 +46,6 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		obstacles.clear();
 		position_x = x;
 		position_y = y;
 		grid_x_len = 5;
@@ -95,8 +94,8 @@ public class PlanetExplorer {
 		ret += position_x + "," + position_y + "," + directions[current_facing];
 		ret += ")";
 		
-		if (!obstacles.isEmpty())
-			ret += obstacleString();
+		/*if (!obstacles.isEmpty())
+			ret += obstacleString();*/
 		
 		return ret;
 	}
