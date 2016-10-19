@@ -76,6 +76,6 @@ public class PlanetExplorer {
 		if ('l' == cmd)
 			current_facing--;
 		
-		throw new PlanetExplorerException("Command was not a turn command");
+		throw new PlanetExplorerException("Command " + "(" + cmd + ")" +  " was not a turn command");
 	}
 }
