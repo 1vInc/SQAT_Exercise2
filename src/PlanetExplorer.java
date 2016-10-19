@@ -46,6 +46,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		obstacles.clear();
 		position_x = x;
 		position_y = y;
 		grid_x_len = 5;
