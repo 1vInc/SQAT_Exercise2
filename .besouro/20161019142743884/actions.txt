@@ -207,3 +207,13 @@ EditAction 1476879323133 PlanetExplorer.java 2913 6 19 0
 RefactoringAction 1476879349141 TestPlanetExplorer.java ADD void facingNorth_notMovingHorizontally() METHOD
 RefactoringAction 1476879363703 TestPlanetExplorer.java REMOVE facingNorth_notMovingHorizontally() METHOD
 EditAction 1476879364438 TestPlanetExplorer.java 1109 8 8 4
+UnitTestCaseAction 1476879369620 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879369620 TestPlanetExplorer.java FAIL
+RefactoringAction 1476879376226 TestPlanetExplorer.java REMOVE facingSouth_movingDiagonally() METHOD
+RefactoringAction 1476879376227 TestPlanetExplorer.java REMOVE facingWest_movingHorizontally() METHOD
+RefactoringAction 1476879376228 TestPlanetExplorer.java REMOVE facingEast_movingHorizontally() METHOD
+RefactoringAction 1476879377738 TestPlanetExplorer.java ADD void facingNorth_notMovingHorizontally() METHOD
+RefactoringAction 1476879377739 TestPlanetExplorer.java ADD void facingSouth_movingDiagonally() METHOD
+RefactoringAction 1476879377740 TestPlanetExplorer.java ADD void facingEast_movingHorizontally() METHOD
+RefactoringAction 1476879377740 TestPlanetExplorer.java ADD void facingWest_movingHorizontally() METHOD
+EditAction 1476879381272 TestPlanetExplorer.java 1106 9 9 5
