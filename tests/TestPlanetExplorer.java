@@ -21,6 +21,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_leftTurnFromStartingPositionWorks() throws PlanetExplorerException {
-		fail("not yet implemented");
+		assertEquals("(0,0,W)", explorer.executeCommand("k"));
 	}
 }
