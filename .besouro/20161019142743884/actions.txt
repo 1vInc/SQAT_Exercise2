@@ -354,3 +354,6 @@ CompilationAction 1476881053339 PlanetExplorer.java
 CompilationAction 1476881079032 PlanetExplorer.java
 CompilationAction 1476881079190 PlanetExplorer.java
 EditAction 1476881084788 PlanetExplorer.java 4295 14 32 0
+CompilationAction 1476881085031 PlanetExplorer.java
+RefactoringAction 1476881094218 PlanetExplorer.java RENAME GRID_X_LEN=>int grid_x_len FIELD
+EditAction 1476881097484 PlanetExplorer.java 4295 14 32 0

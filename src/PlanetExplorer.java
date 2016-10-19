@@ -16,7 +16,7 @@ public class PlanetExplorer {
 	
 	private final int FACING_DIR_AMOUNT = 4;
 	
-	private int GRID_X_LEN;
+	private int grid_x_len;
 	private int GRID_Y_LEN;
 	
 	private String[] directions = {
@@ -40,7 +40,7 @@ public class PlanetExplorer {
 	 */
 		position_x = x;
 		position_y = y;
-		GRID_X_LEN = 5;
+		grid_x_len = 5;
 		GRID_Y_LEN = 5;
 		current_facing = N_INDEX;
 	}
@@ -148,11 +148,11 @@ public class PlanetExplorer {
 	}
 	
 	private void increment_x() {
-		position_x = (position_x + 1) % GRID_X_LEN;
+		position_x = (position_x + 1) % grid_x_len;
 	}
 	
 	private void decrement_x() {
-		position_x = (position_x + (GRID_X_LEN - 1)) % GRID_X_LEN;
+		position_x = (position_x + (grid_x_len - 1)) % grid_x_len;
 	}
 	
 	private void moveDiagonally(char move_dir) {
