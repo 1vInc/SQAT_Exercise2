@@ -339,3 +339,18 @@ RefactoringAction 1476880937159 TestPlanetExplorer.java RENAME moveTwoStepsToEas
 RefactoringAction 1476880939670 TestPlanetExplorer.java RENAME moveTwoStepsToEastAndOneBack_position_x=>void moveTwoStepsToEastAndOneBack_position_x1y0() METHOD
 EditAction 1476880958810 TestPlanetExplorer.java 1831 12 16 11
 EditAction 1476880965104 TestPlanetExplorer.java 1831 12 16 11
+UnitTestCaseAction 1476880967926 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880967926 TestPlanetExplorer.java OK
+RefactoringAction 1476880984743 TestPlanetExplorer.java ADD void move FIELD
+RefactoringAction 1476880985754 TestPlanetExplorer.java RENAME move=>void moveT FIELD
+RefactoringAction 1476880988764 TestPlanetExplorer.java RENAME moveT=>void moveTwoSteps FIELD
+RefactoringAction 1476880990274 TestPlanetExplorer.java RENAME moveTwoSteps=>void moveTwoStepsNorth FIELD
+RefactoringAction 1476880993283 TestPlanetExplorer.java RENAME moveTwoStepsNorth=>void moveTwoStepsNorth_position FIELD
+RefactoringAction 1476880995793 TestPlanetExplorer.java RENAME moveTwoStepsNorth_position=>void moveTwoStepsNorth_position_ FIELD
+RefactoringAction 1476881028497 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1476881034011 PlanetExplorer.java RENAME set=>void setGridXLen FIELD
+RefactoringAction 1476881040025 PlanetExplorer.java RENAME setGridXLen=>void setGridXLen() METHOD
+CompilationAction 1476881053339 PlanetExplorer.java
+CompilationAction 1476881079032 PlanetExplorer.java
+CompilationAction 1476881079190 PlanetExplorer.java
+EditAction 1476881084788 PlanetExplorer.java 4295 14 32 0

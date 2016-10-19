@@ -16,8 +16,8 @@ public class PlanetExplorer {
 	
 	private final int FACING_DIR_AMOUNT = 4;
 	
-	private final int GRID_X_LEN = 5;
-	private final int GRID_Y_LEN = 5;
+	private int GRID_X_LEN;
+	private int GRID_Y_LEN;
 	
 	private String[] directions = {
 			"N",
@@ -40,6 +40,8 @@ public class PlanetExplorer {
 	 */
 		position_x = x;
 		position_y = y;
+		GRID_X_LEN = 5;
+		GRID_Y_LEN = 5;
 		current_facing = N_INDEX;
 	}
 	
@@ -69,6 +71,9 @@ public class PlanetExplorer {
 		return result;
 	}
 	
+	public void setGridXLen()
+	public void setGridYLen()
+	
 	public String getCurrentPosition() {
 		String ret = "";
 		
@@ -85,6 +90,7 @@ public class PlanetExplorer {
 			
 		return false;
 	}
+	
 	
 	private void handleTurn(char cmd) throws PlanetExplorerException {
 		if ('r' == cmd) {
