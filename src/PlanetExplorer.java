@@ -111,12 +111,15 @@ public class PlanetExplorer {
 		return false;
 	}
 	
-	private void handleMove() {
+	private void handleMove(char cmd) throws PlanetExplorerException {
+		if (movingHorizontally() && movingDiagonally())
+			throw new PlanetExplorerException("Incorrect state. Cannot be simultaneously moving diagonally and horizontally");
+		
 		if (movingHorizontally()) {
-			return;
+				if ('f' == cmd)
 		}
 		
-		if () {
+		if (movingDiagonally()) {
 			
 		}
 	}
