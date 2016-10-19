@@ -38,7 +38,7 @@ public class PlanetExplorer {
 		current_facing = N_INDEX;
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException {
 		String result;
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -56,7 +56,7 @@ public class PlanetExplorer {
 		}
 		
 		result = "(";
-		result += position_x + "," + position_y + "," + current_facing;
+		result += position_x + "," + position_y + "," + directions[current_facing];
 		result += ")";
 		
 		return result;
@@ -69,13 +69,13 @@ public class PlanetExplorer {
 		return false;
 	}
 	
-	private void handleTurn(char cmd) {
+	private void handleTurn(char cmd) throws PlanetExplorerException {
 		if ('r' == cmd)
 			current_facing++;
 		
 		if ('l' == cmd)
 			current_facing--;
 		
-		throw PlanetExplorerException("Command was not a turn command");
+		throw new PlanetExplorerException("Command was not a turn command");
 	}
 }
