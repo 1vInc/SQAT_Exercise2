@@ -44,3 +44,12 @@ EditAction 1476877567073 PlanetExplorer.java 1675 2 8 0
 UnitTestCaseAction 1476877570799 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877570799 TestPlanetExplorer.java FAIL
 EditAction 1476877690207 PlanetExplorer.java 1778 2 9 0
+CompilationAction 1476877690319 PlanetExplorer.java
+CompilationAction 1476877690320 PlanetExplorer.java
+RefactoringAction 1476877702978 PlanetExplorer.java ADD boolean isTurn FIELD
+RefactoringAction 1476877703994 PlanetExplorer.java RENAME isTurn=>boolean isTurn() METHOD
+RefactoringAction 1476877734186 PlanetExplorer.java RENAME isTurn()=>boolean isTurn(char) METHOD
+CompilationAction 1476877771947 PlanetExplorer.java
+CompilationAction 1476877772146 PlanetExplorer.java
+RefactoringAction 1476877784910 PlanetExplorer.java ADD void handleTurn() METHOD
+EditAction 1476877794187 PlanetExplorer.java 1944 4 11 0

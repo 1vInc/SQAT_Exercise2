@@ -39,8 +39,8 @@ public class PlanetExplorer {
 		 */
 		
 		for (int i = 0; i < command.length(); i++) {
-			if (isTurn(command))
-				handleTurn(command);
+			if (isTurn(command.charAt(i)))
+				handleTurn(command.charAt(i));
 		}
 		
 		result = "(";
@@ -48,5 +48,16 @@ public class PlanetExplorer {
 		result += ")";
 		
 		return result;
+	}
+	
+	private boolean isTurn(char cmd) {
+		if ('r' == cmd || 'l' == cmd)
+			return true;
+			
+		return false;
+	}
+	
+	private void handleTurn() {
+		
 	}
 }
