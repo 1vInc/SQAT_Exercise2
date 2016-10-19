@@ -28,6 +28,10 @@ public class PlanetExplorer {
 			"W",
 	};
 	
+	private String[] obstaclePositions = {
+		"1_1",
+	};
+	
 	private Vector<String> obstacles;
 	
 	private int position_x; 
@@ -188,7 +192,7 @@ public class PlanetExplorer {
 	}
 	
 	private boolean isObstructed(int x, int y) {
-		
+		return false;
 	}
 	
 	// facingNorth

@@ -422,3 +422,19 @@ CompilationAction 1476881750089 PlanetExplorer.java
 CompilationAction 1476881816530 PlanetExplorer.java
 CompilationAction 1476881816709 PlanetExplorer.java
 EditAction 1476881827405 PlanetExplorer.java 5069 17 40 0
+CompilationAction 1476881827657 PlanetExplorer.java
+CompilationAction 1476881908196 PlanetExplorer.java
+CompilationAction 1476881908356 PlanetExplorer.java
+RefactoringAction 1476881925264 PlanetExplorer.java ADD String obstaclePositions FIELD
+RefactoringAction 1476881965656 TestPlanetExplorer.java ADD void obstacle FIELD
+RefactoringAction 1476881966668 TestPlanetExplorer.java RENAME obstacle=>void obstacleIn FIELD
+CompilationAction 1476881979742 PlanetExplorer.java
+CompilationAction 1476881979916 PlanetExplorer.java
+CompilationAction 1476881979916 PlanetExplorer.java
+CompilationAction 1476881979916 PlanetExplorer.java
+CompilationAction 1476881991210 PlanetExplorer.java
+CompilationAction 1476881991211 PlanetExplorer.java
+CompilationAction 1476881991370 PlanetExplorer.java
+CompilationAction 1476881995346 PlanetExplorer.java
+CompilationAction 1476881995508 PlanetExplorer.java
+EditAction 1476882009785 PlanetExplorer.java 5137 17 41 0
