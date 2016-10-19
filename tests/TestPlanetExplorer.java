@@ -10,9 +10,12 @@ public class TestPlanetExplorer {
 	}
 
 	@Test
+	public void test_startingPosition_x0y0N() {
+		fail("not yet implemented");
+	}
+	
+	@Test
 	public void test_startingPosition_x0y0N() throws PlanetExplorerException {
-		
-		
 		assertEquals("(0,0,E)", explorer.executeCommand("r"));
 	}
 	

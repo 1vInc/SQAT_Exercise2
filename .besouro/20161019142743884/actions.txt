@@ -126,3 +126,7 @@ CompilationAction 1476878461143 TestPlanetExplorer.java
 UnitTestCaseAction 1476878466988 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476878466989 TestPlanetExplorer.java OK
 EditAction 1476878478598 TestPlanetExplorer.java 489 3 3 1
+UnitTestCaseAction 1476878481379 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878481379 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878510896 TestPlanetExplorer.java ADD void test_startingPosition_x0y0N()/2 METHOD
+EditAction 1476878519872 TestPlanetExplorer.java 571 4 4 1
