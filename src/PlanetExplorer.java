@@ -192,7 +192,7 @@ public class PlanetExplorer {
 	}
 	
 	private boolean isObstructed(int x, int y) {
-		return false;
+		return true;
 	}
 	
 	// facingNorth
