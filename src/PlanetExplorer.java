@@ -42,6 +42,6 @@ public class PlanetExplorer {
 		result += position_x + "," + position_y + "," + current_facing;
 		result += ")";
 		
-		return "(0,0,E)";
+		return result;
 	}
 }
