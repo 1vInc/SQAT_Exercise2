@@ -9,6 +9,9 @@ public class PlanetExplorer {
 	public static String SOUTH	= "S";
 	public static String WEST	= "W";
 	
+	private int position_x; 
+	private int position_y;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -17,6 +20,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		position_x = x;
+		position_y = y;
 	}
 	
 	public String executeCommand(String command){

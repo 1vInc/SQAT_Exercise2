@@ -24,3 +24,9 @@ EditAction 1476877329533 TestPlanetExplorer.java 273 1 2 1
 UnitTestCaseAction 1476877341346 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877341347 TestPlanetExplorer.java FAIL
 EditAction 1476877377497 PlanetExplorer.java 1421 2 1 0
+UnitTestCaseAction 1476877386606 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877386607 TestPlanetExplorer.java OK
+RefactoringAction 1476877404986 PlanetExplorer.java ADD int position FIELD
+RefactoringAction 1476877409002 PlanetExplorer.java RENAME position=>int position_x FIELD
+RefactoringAction 1476877413520 PlanetExplorer.java ADD int position_y FIELD
+EditAction 1476877432426 PlanetExplorer.java 1510 2 3 0
