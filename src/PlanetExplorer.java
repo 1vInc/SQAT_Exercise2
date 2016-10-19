@@ -125,10 +125,15 @@ public class PlanetExplorer {
 	}
 	
 	private void moveHorizontally(char move_dir) {
-		if (SOUTH == directions[current_facing] && 'f' == move_dir)
+		if (EAST == directions[current_facing] && 'f' == move_dir)
 			position_x++;
-		if (WEST == directions[current_facing] && 'f' == move_dir)
+
+		if (EAST == directions[current_facing] && 'b' == move_dir)
 			position_x--;
+		
+		if (WEST == directions[current_facing] && 'b' == move_dir)
+			
+		if (EAST == directions[current_facing] && 'b' == move_dir)
 	}
 	
 	private void moveDiagonally(char move_dir) {
