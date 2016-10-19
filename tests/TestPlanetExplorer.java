@@ -26,6 +26,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void facingNorth_movingDiagonally() {
+		assertTrue(explorer.movingDiagonally());
 		fail("not yet implemented");
 	}
 

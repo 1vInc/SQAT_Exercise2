@@ -190,3 +190,6 @@ RefactoringAction 1476879115380 TestPlanetExplorer.java RENAME facingW_movingDia
 RefactoringAction 1476879118891 TestPlanetExplorer.java RENAME facingWest_movingDiagonally()=>void facingWest_movingHorizontally() METHOD
 EditAction 1476879125334 PlanetExplorer.java 2791 5 17 0
 EditAction 1476879126285 TestPlanetExplorer.java 992 8 8 3
+UnitTestCaseAction 1476879128585 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879128585 TestPlanetExplorer.java FAIL
+EditAction 1476879194414 TestPlanetExplorer.java 1035 8 9 4
