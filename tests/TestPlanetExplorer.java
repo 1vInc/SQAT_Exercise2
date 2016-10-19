@@ -12,7 +12,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_startingPosition_x0y0N() {
 		explorer
-		assertEquals("(0,0,E)", explorer.getCurrentPosition());
+		assertEquals("(0,0,N)", explorer.getCurrentPosition());
 		fail("not yet implemented");
 	}
 	
