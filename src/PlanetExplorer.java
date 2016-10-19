@@ -85,17 +85,17 @@ public class PlanetExplorer {
 	
 	private void parseObstacles(String obstr) {
 		
-		obstr = obstr.substring(3);
 		
-		/*for () {
-			
-		}*/
+		// find pos of next ")"
+		for () {
+			if (')' == obstr.charAt(i)) 
+		}
 		
 		System.out.println(obstr);
 	}
 	
-	private void parseObstacle() {
-		
+	private void parseObstacle(String obstr) {
+		//obstr = obstr.substring(3);
 	}
 	
 	public void setGridXLen(int new_x_len) {
@@ -213,15 +213,18 @@ public class PlanetExplorer {
 	}
 	
 	private void decrement_x() {
-		position_x = (position_x + (grid_x_len - 1)) % grid_x_len;
+		if (!isObstructed((position_x + (grid_x_len - 1)) % grid_x_len, position_y))
+			position_x = (position_x + (grid_x_len - 1)) % grid_x_len;
 	}
 	
 	private void increment_y() {
-		position_y = (position_y + 1) % grid_y_len;
+		if (!isObstructed((position_y + 1) % grid_y_len, position_y))
+			position_y = (position_y + 1) % grid_y_len;
 	}
 	
 	private void decrement_y() {
-		position_y = (position_y + (grid_y_len - 1)) % grid_y_len;
+		if (!isObstructed((position_y + (grid_y_len - 1)) % grid_y_len, position_y))
+			position_y = (position_y + (grid_y_len - 1)) % grid_y_len;
 	}
 	
 	private boolean isObstructed(int x, int y) {

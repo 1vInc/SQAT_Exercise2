@@ -585,3 +585,43 @@ EditAction 1476883196363 PlanetExplorer.java 5573 19 49 0
 EditAction 1476883211826 TestPlanetExplorer.java 2299 15 19 14
 RefactoringAction 1476883235362 PlanetExplorer.java ADD void parseObstacle() METHOD
 EditAction 1476883266444 PlanetExplorer.java 5645 20 49 0
+RefactoringAction 1476883302026 PlanetExplorer.java RENAME parseObstacle()=>void parseObstacle(String) METHOD
+UnitTestCaseAction 1476883366421 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883366421 TestPlanetExplorer.java FAIL
+RefactoringAction 1476883379194 PlanetExplorer.java REMOVE movingDiagonally() METHOD
+RefactoringAction 1476883379195 PlanetExplorer.java REMOVE moveDiagonally(char) METHOD
+RefactoringAction 1476883379195 PlanetExplorer.java REMOVE increment_y() METHOD
+RefactoringAction 1476883379196 PlanetExplorer.java REMOVE movingHorizontally() METHOD
+RefactoringAction 1476883379196 PlanetExplorer.java REMOVE obstacleString() METHOD
+RefactoringAction 1476883379197 PlanetExplorer.java REMOVE setGridYLen(int) METHOD
+RefactoringAction 1476883379198 PlanetExplorer.java REMOVE setGridXLen(int) METHOD
+RefactoringAction 1476883379198 PlanetExplorer.java REMOVE isObstructed(int, int) METHOD
+RefactoringAction 1476883379199 PlanetExplorer.java REMOVE parseObstacle(String) METHOD
+RefactoringAction 1476883379199 PlanetExplorer.java REMOVE decrement_y() METHOD
+RefactoringAction 1476883379200 PlanetExplorer.java REMOVE handleMove(char) METHOD
+RefactoringAction 1476883379201 PlanetExplorer.java REMOVE handleTurn(char) METHOD
+RefactoringAction 1476883379201 PlanetExplorer.java REMOVE moveHorizontally(char) METHOD
+RefactoringAction 1476883379202 PlanetExplorer.java REMOVE decrement_x() METHOD
+RefactoringAction 1476883379202 PlanetExplorer.java REMOVE isTurn(char) METHOD
+RefactoringAction 1476883379203 PlanetExplorer.java REMOVE increment_x() METHOD
+RefactoringAction 1476883379204 PlanetExplorer.java REMOVE getCurrentPosition() METHOD
+RefactoringAction 1476883381224 PlanetExplorer.java ADD void parseObstacle(String) METHOD
+RefactoringAction 1476883381224 PlanetExplorer.java ADD void setGridXLen(int) METHOD
+RefactoringAction 1476883381225 PlanetExplorer.java ADD void setGridYLen(int) METHOD
+RefactoringAction 1476883381226 PlanetExplorer.java ADD String getCurrentPosition() METHOD
+RefactoringAction 1476883381226 PlanetExplorer.java ADD String obstacleString() METHOD
+RefactoringAction 1476883381227 PlanetExplorer.java ADD boolean isTurn(char) METHOD
+RefactoringAction 1476883381228 PlanetExplorer.java ADD void handleTurn(char) METHOD
+RefactoringAction 1476883381228 PlanetExplorer.java ADD boolean movingHorizontally() METHOD
+RefactoringAction 1476883381228 PlanetExplorer.java ADD boolean movingDiagonally() METHOD
+RefactoringAction 1476883381229 PlanetExplorer.java ADD void handleMove(char) METHOD
+RefactoringAction 1476883381229 PlanetExplorer.java ADD void moveHorizontally(char) METHOD
+RefactoringAction 1476883381230 PlanetExplorer.java ADD void moveDiagonally(char) METHOD
+RefactoringAction 1476883381230 PlanetExplorer.java ADD void increment_x() METHOD
+RefactoringAction 1476883381231 PlanetExplorer.java ADD void decrement_x() METHOD
+RefactoringAction 1476883381231 PlanetExplorer.java ADD void increment_y() METHOD
+RefactoringAction 1476883381232 PlanetExplorer.java ADD void decrement_y() METHOD
+RefactoringAction 1476883381232 PlanetExplorer.java ADD boolean isObstructed(int, int) METHOD
+CompilationAction 1476883426609 PlanetExplorer.java
+CompilationAction 1476883426610 PlanetExplorer.java
+EditAction 1476883460421 PlanetExplorer.java 5931 20 47 0
