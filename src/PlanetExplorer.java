@@ -93,7 +93,12 @@ public class PlanetExplorer {
 		throw new PlanetExplorerException("Command " + "(" + cmd + ")" +  " was not a turn command");
 	}
 	
-	//public boolean movingHorizontally
+	public boolean movingHorizontally() {
+		if (WEST == directions[current_facing] || EAST == directions[current_facing])
+			return true;
+
+		return false;
+	}
 	
 	public boolean movingDiagonally() {
 		if (NORTH == directions[current_facing] || SOUTH == directions[current_facing])

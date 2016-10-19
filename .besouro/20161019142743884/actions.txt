@@ -217,3 +217,7 @@ RefactoringAction 1476879377739 TestPlanetExplorer.java ADD void facingSouth_mov
 RefactoringAction 1476879377740 TestPlanetExplorer.java ADD void facingEast_movingHorizontally() METHOD
 RefactoringAction 1476879377740 TestPlanetExplorer.java ADD void facingWest_movingHorizontally() METHOD
 EditAction 1476879381272 TestPlanetExplorer.java 1106 9 9 5
+CompilationAction 1476879381509 TestPlanetExplorer.java
+RefactoringAction 1476879385077 PlanetExplorer.java ADD boolean movingHorizontally FIELD
+RefactoringAction 1476879387091 PlanetExplorer.java RENAME movingHorizontally=>boolean movingHorizontally() METHOD
+EditAction 1476879417921 PlanetExplorer.java 3031 7 21 0
