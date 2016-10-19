@@ -6,7 +6,7 @@ public class TestPlanetExplorer {
 	private PlanetExplorer explorer;
 	
 	public TestPlanetExplorer () {
-		explorer = new PlanetExplorer(0,0,null);
+		explorer = new PlanetExplorer(0,0,"(obs1_x,obs1_y)");
 	}
 
 	@Test
