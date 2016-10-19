@@ -452,3 +452,6 @@ EditAction 1476882135271 TestPlanetExplorer.java 2286 15 19 14
 UnitTestCaseAction 1476882140002 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476882140002 TestPlanetExplorer.java FAIL
 EditAction 1476882195754 PlanetExplorer.java 5168 17 41 0
+CompilationAction 1476882196002 PlanetExplorer.java
+RefactoringAction 1476882227567 PlanetExplorer.java ADD String obstacleString() METHOD
+EditAction 1476882323856 PlanetExplorer.java 5342 18 44 0
