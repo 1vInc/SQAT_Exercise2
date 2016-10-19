@@ -146,7 +146,7 @@ public class PlanetExplorer {
 	}
 	
 	private void decrement_x() {
-		position_x = (position_x + (GRID_X_LEN - 1)) % GID_X_LEN;
+		position_x = (position_x + (GRID_X_LEN - 1)) % GRID_X_LEN;
 	}
 	
 	private void moveDiagonally(char move_dir) {

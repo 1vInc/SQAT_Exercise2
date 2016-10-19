@@ -327,3 +327,14 @@ EditAction 1476880780034 PlanetExplorer.java 4134 12 29 0
 UnitTestCaseAction 1476880847928 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476880847928 TestPlanetExplorer.java OK
 EditAction 1476880900469 PlanetExplorer.java 4220 12 30 0
+CompilationAction 1476880900711 PlanetExplorer.java
+CompilationAction 1476880906858 PlanetExplorer.java
+UnitTestCaseAction 1476880910548 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880910548 TestPlanetExplorer.java OK
+RefactoringAction 1476880921605 TestPlanetExplorer.java ADD void move FIELD
+RefactoringAction 1476880924618 TestPlanetExplorer.java RENAME move=>void moveTwoStepsT FIELD
+RefactoringAction 1476880928629 TestPlanetExplorer.java RENAME moveTwoStepsT=>void moveTwoStepsToEast FIELD
+RefactoringAction 1476880933649 TestPlanetExplorer.java RENAME moveTwoStepsToEast=>void moveTwoStepsToEastAndOneBack_ FIELD
+RefactoringAction 1476880937159 TestPlanetExplorer.java RENAME moveTwoStepsToEastAndOneBack_=>void moveTwoStepsToEastAndOneBack_position_x FIELD
+RefactoringAction 1476880939670 TestPlanetExplorer.java RENAME moveTwoStepsToEastAndOneBack_position_x=>void moveTwoStepsToEastAndOneBack_position_x1y0() METHOD
+EditAction 1476880958810 TestPlanetExplorer.java 1831 12 16 11
