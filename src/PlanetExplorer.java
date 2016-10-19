@@ -106,6 +106,8 @@ public class PlanetExplorer {
 		for (int i = 0; i < obstacles.size(); i++) {
 			ret += obstacles.get(i);
 		}
+		
+		return ret;
 	}
 	
 	private boolean isTurn(char cmd) {
