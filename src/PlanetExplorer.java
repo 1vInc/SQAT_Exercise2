@@ -87,7 +87,7 @@ public class PlanetExplorer {
 		int next_end = -1;
 		
 		// find pos of next ")"
-		do {
+		/*do {
 			for (int i = 0; i < obstr.length(); i++) {
 				if (')' == obstr.charAt(i))
 					next_end = i;
@@ -95,7 +95,7 @@ public class PlanetExplorer {
 			
 			parseObstacle(obstr.substring(0, next_end));
 			obstr = obstr.substring(0, next_end);
-		} while (obstr.length() > 0);
+		} while (obstr.length() > 0);*/
 		
 		//System.out.println(obstr);
 	}
