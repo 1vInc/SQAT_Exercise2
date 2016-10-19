@@ -36,6 +36,7 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void facingSouth_movingDiagonally() {
+		explorer.executeCommand("rr");
 		assertTrue(explorer.movingDiagonally());
 	}
 	
