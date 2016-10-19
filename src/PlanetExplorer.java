@@ -5,9 +5,9 @@
 
 public class PlanetExplorer {
 	public static final String NORTH	= "N";
-	public static final String EAST	= "E";
+	public static final String EAST		= "E";
 	public static final String SOUTH	= "S";
-	public static final String WEST	= "W";
+	public static final String WEST		= "W";
 
 	private final int N_INDEX = 0;
 	private final int E_INDEX = 1;
@@ -86,7 +86,7 @@ public class PlanetExplorer {
 		}
 		
 		if ('l' == cmd) {
-			current_facing = (current_facing - 1) % FACING_DIR_AMOUNT;
+			current_facing = current_facing + (FACING_DIR_AMOUNT - 1) % FACING_DIR_AMOUNT;
 			return;
 		}
 		

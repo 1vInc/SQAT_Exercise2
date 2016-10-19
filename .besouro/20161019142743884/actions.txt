@@ -162,3 +162,6 @@ RefactoringAction 1476878746543 PlanetExplorer.java RENAME FACING_DIR=>int FACIN
 EditAction 1476878746803 PlanetExplorer.java 2624 5 17 0
 CompilationAction 1476878747060 PlanetExplorer.java
 EditAction 1476878786503 PlanetExplorer.java 2693 5 17 0
+UnitTestCaseAction 1476878791079 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878791079 TestPlanetExplorer.java FAIL
+EditAction 1476878909399 PlanetExplorer.java 2715 5 17 0
